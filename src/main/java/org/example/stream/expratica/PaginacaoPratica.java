@@ -9,16 +9,37 @@ public class PaginacaoPratica {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        List<String> lista = new ArrayList<>(List.of("Ana", "Beatriz", "Bruno", "Carlos", "Davi",
-                "Eric", "Felipe", "Fernanda", "Fernanda", "Gabriel", "Guilherme", "Gustavo",
-                "Henrique", "Isabel", "Isabella", "Joao", "Karina", "Juliana", "Juliano",
-                "Karina", "Leonardo", "Larissa", "Luciana", "Luciana", "Lucas", "Luiza",
-                "Luiza", "Luiza", "Manuela", "Manuela", "Marcelo", "Maria", "Maria", "Maria",
-                "Matheus", "Mariana", "Paulo", "Pedro", "Rafael", "Rafael", "Rafaela", "Renata",
-                "Roberta", "Roberta", "Rodrigo", "Samuel", "Sofia", "Sofia", "Thais", "Thiago",
-                "Victor", "Victor", "Vinicius", "Wolfsberg"));
+        List<String> lista = new ArrayList<>(List.of("Abigail Williams", "Adam Johnson", "Adriana Moreno",
+                "Aiden Thompson", "Alana Anderson", "Alexander Rodriguez", "Alexandria Davis",
+                "Alexis Scott", "Alison Brown", "Amelia Thompson", "Andrew Johnson", "Angela Davis",
+                "Anna Smith", "Anthony Anderson", "Ariana Rodriguez", "Ashley Williams", "Benjamin Anderson",
+                "Bethany Johnson", "Brandon Thompson", "Brenda Davis", "Brianna Rodriguez", "Brooke Williams",
+                "Bryan Johnson", "Caitlin Anderson", "Caleb Thompson", "Cameron Rodriguez", "Carl Davis",
+                "Caroline Smith", "Carolyn Brown", "Cassandra Rodriguez", "Catherine Davis", "Chad Thompson",
+                "Charles Anderson", "Charlotte Smith", "Chloe Williams", "Christian Rodriguez", "Christina Davis",
+                "Christopher Anderson", "Clara Smith", "Courtney Brown", "Daniel Anderson", "Danielle Rodriguez",
+                "David Johnson", "Deborah Williams", "Demi Thompson", "Dennis Davis", "Derek Anderson", "Diana Smith",
+                "Dominic Rodriguez", "Don Davis", "Dylan Thompson", "Elizabeth Anderson", "Emily Williams", "Eric Johnson",
+                "Ethan Thompson", "Evan Rodriguez", "Faith Davis", "Fiona Smith", "Gabriel Anderson", "Gage Thompson",
+                "Gary Davis", "Genesis Rodriguez", "Georgia Smith", "Grace Williams", "Hailey Anderson", "Haley Johnson",
+                "Hannah Thompson", "Harley Davis", "Hayden Rodriguez", "Heather Williams", "Henry Johnson", "Holly Anderson",
+                "Hunter Thompson", "Ian Rodriguez", "Isabella Davis", "Jack Anderson", "Jackson Thompson", "Jacob Rodriguez",
+                "Jacqueline Davis", "Jake Williams", "James Johnson", "Jamie Anderson", "Janice Thompson", "Jared Rodriguez",
+                "Jason Davis", "Jayden Williams", "Jennifer Anderson", "Jesse Johnson", "Jessica Thompson", "Jodie Davis",
+                "Joel Rodriguez", "John Anderson", "Johnny Williams", "Jordan Thompson", "Joseph Rodriguez", "Joshua Davis",
+                "Julia Anderson", "Justin Thompson", "Kaitlyn Rodriguez", "Kara Davis", "Karen Smith", "Katherine Anderson",
+                "Katie Williams", "Kayla Johnson", "Kelsey Thompson", "Kenneth Davis", "Kevin Rodriguez", "Kimberly Williams",
+                "Kira Anderson", "Kyle Thompson", "Kylie Rodriguez", "Laura Davis", "Lauren Anderson", "Leah Thompson", "Leo Rodriguez",
+                "Levi Davis", "Liam Anderson", "Lily Thompson", "Logan Rodriguez", "Lucas Davis", "Lucy Anderson", "Madison Thompson",
+                "Makayla Rodriguez", "Maleah Davis", "Maria Anderson", "Mariah Thompson", "Mark Rodriguez", "Mason Davis",
+                "Matt Anderson", "Megan Thompson", "Melissa Rodriguez", "Michael Davis", "Michelle Anderson",
+                "Miguel Thompson", "Mike Rodriguez", "Miranda Davis", "Misty Anderson", "Molly Thompson",
+                "Morgan Rodriguez", "Natalie Davis", "Nathan Anderson", "Nathaniel Thompson", "Neil Rodriguez",
+                "Nicholas Davis", "Nicole Anderson", "Nina Thompson", "Noah Rodriguez", "Nolan Davis",
+                "Olivia Anderson", "Owen Thompson", "Paige Rodriguez", "Pamela Davis", "Patricia Anderson"));
 
 
+        System.out.println(lista.size());
         System.out.println("-----------------------------------------------");
         System.out.println("\n PAGINA 01 \n");
         System.out.println("-----------------------------------------------");
